@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+
+model Business_Card {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String 
+  history String
+  customURL String? @unique
+  picture String?
+  linkedin String?
+  github String?
+  email String
+  tel String?
+  created_at DateTime @default(now())
+}
+
