@@ -4,7 +4,7 @@ Gone are the days of carrying around stacks of paper cards or relying on outdate
 - Poduction deploy avaliable on AWS: http://100.26.109.233/api
 
 ## Technologies
-The following tools and frameworks were used in the construction of this application:
+The following tools and frameworks were used in the construction of this application: <br>
   ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
   ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
