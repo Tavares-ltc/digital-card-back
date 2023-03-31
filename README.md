@@ -17,6 +17,9 @@ The following tools and frameworks were used in the construction of this applica
 
 ## How to run
 
+* You can start both projects with docker-compose, check the monorepo here: https://github.com/Tavares-ltc/digital-card-app
+<br>
+
 1. Clone this repository
 
 ```
