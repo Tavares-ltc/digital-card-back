@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
     "start": "ts-node ./src/server.ts"
   },
   "author": "tavares-ltc",
@@ -17,15 +17,20 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "joi": "^17.9.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
     "@types/joi": "^17.2.3",
     "@types/node": "^18.15.10",
     "@types/typescript": "^2.0.0",
+    "jest": "^29.5.0",
     "prisma": "^4.12.0",
     "typescript": "^5.0.2"
   }

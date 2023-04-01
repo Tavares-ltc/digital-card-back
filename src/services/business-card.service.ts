@@ -33,7 +33,7 @@ async function getBusinessCardByCustomURL(customURL: string) {
     customURL
   );
 
-  if (!businessCard) return notFoundError();
+  if (!businessCard) throw notFoundError();
 
   return businessCard;
 }
